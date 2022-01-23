@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calstyle.css">
+	<script type="text/javascript" src="calculate.js"></script>
+</head>
+
+<body>
+	
+	<table border="1px" align="center">
+		<tr>
+            <th colspan = 4>CALCULATOR</th>
+        </tr>
+		<tr>
+			<td colspan="3"><input type="text" id="result"/></td>
+			<td><input type="button" value="    C    " onclick="clearSc()"/> </td>
+		</tr>
+
+		<tr>
+			<td><input type="button" value="7" onclick="funcDis('7')"/> </td>
+			<td><input type="button" value="8" onclick="funcDis('8')"/> </td>
+			<td><input type="button" value="9" onclick="funcDis('9')"/> </td>
+			<td><input type="button" value="+" onclick="funcDis('+')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="funcDis('4')"/> </td>
+			<td><input type="button" value="5" onclick="funcDis('5')"/> </td>
+			<td><input type="button" value="6" onclick="funcDis('6')"/> </td>
+			<td><input type="button" value="-" onclick="funcDis('-')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onclick="funcDis('1')"/> </td>
+			<td><input type="button" value="2" onclick="funcDis('2')"/> </td>
+			<td><input type="button" value="3" onclick="funcDis('3')"/> </td>
+			<td><input type="button" value="/" onclick="funcDis('/')"/> </td>
+		</tr>
+		
+		<tr>
+			<td><input type="button" value="." onclick="funcDis('.')"/> </td>
+			<td><input type="button" value="0" onclick="funcDis('0')"/> </td>			
+			<td><input type="button" value="=" onclick="solve()"/> </td>
+			<td><input type="button" value="*" onclick="funcDis('*')"/> </td>
+		</tr>
+	</table>
+</body>
+</html>
